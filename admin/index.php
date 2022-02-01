@@ -178,7 +178,7 @@ $subscriber_count = mysqli_num_rows($select_all_subscribers);
         <?php  
 $element_text = ['All Posts','Active Posts', 'Draft Posts', 'Comments', 'Pending Comments', 'Users', 'Subscribers', 
 'Categories'];
-$element_count = [$post_publish_count, $post_count, $post_draft_count, $comment_count, 
+$element_count = [$post_count, $post_publish_count, $post_draft_count, $comment_count, 
 $unapproved_comment_count, $user_count, 
 $subscriber_count, $category_count];
 
